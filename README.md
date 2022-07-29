@@ -27,7 +27,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 # Contact_manager
 
-The user can add the contact with their name,occupation,image and many more things, He can update the contact details later if he wants to. He can read and delete the contacts. 
+The user can add the contact with their name,occupation,image and many more things, He can update the contact details later if he wants to. He can read and delete the contacts. This project is made using angular14 and json-server is used as a database.
 
 FEATURES:-
 
@@ -41,3 +41,8 @@ FEATURES:-
 8. Easy to Use
 9. User Friendly
 10. And Many more features...
+
+To run the website first clone the code in a folder and run npm install and then run npm start
+Then go to the server folder and run npm start
+
+Wohooo! the application is now ready to serve!!!
