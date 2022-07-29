@@ -26,3 +26,18 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 # Contact_manager
+
+The user can add the contact with their name,occupation,image and many more things, He can update the contact details later if he wants to. He can read and delete the contacts. 
+
+FEATURES:-
+
+1. Add contact
+2. Read contacts
+3. Delete contacts
+4. Update Contacts
+5. Add profile image for contact
+6. Protected routes
+7. Interactive UI
+8. Easy to Use
+9. User Friendly
+10. And Many more features...
