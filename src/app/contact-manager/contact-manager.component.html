@@ -1,0 +1,82 @@
+<div class="container">
+    <div class="row">
+        <div class="col p-3">
+            <p class="h3 tex-danger fw-bold">Contacts
+                <a routerLink="/contacts/add" class="btn btn-info">
+                    <i class="fa fa-plus-circle"></i>New
+                </a>
+            </p>
+            <p class="fst-italic">
+                ecati voluptatem minima corrupti amet quasi illum temporibus? Nobis velit voluptatibus dolores quidem id
+                voluptatem hic numquam consequuntur ratione saepe ipsam officia nostrum at magni, magnam cumque
+                doloremque?
+            </p>
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Search User">
+                            </div>
+                            <div class="col">
+                                <input type="submit" value="Search" class="btn btn-outline-dark">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- <pre>{{contacts | json}}</pre> -->
+
+<!-- Loading Spinner -->
+<div *ngIf="loading">
+    <app-spinner></app-spinner>
+</div>
+
+<!-- Error-message -->
+<div *ngIf="!loading && errorMessage">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="h3 text-danger fw-bold text-center">{{errorMessage}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Cards -->
+<div class="container mt-3" *ngIf="!loading && contacts.length > 0">
+    <div class="row">
+        <div class="col-md-6" *ngFor="let contact of contacts">
+            <div class="card list-group-item-info shadow lg my-2">
+                <div class="card-body">
+                    <div class="row align-items-center">
+                        <div class="col-sm-4">
+                            <img [src]="contact.photo" alt="user-icon" class="contact-img">
+                        </div>
+                        <div class="col-sm-7">
+                            <ul class="list-group">
+                                <li class="list-group-item">Name: <span class="fw-bold">{{contact.name}}</span></li>
+                                <li class="list-group-item">Email: <span class="fw-bold">{{contact.email}}</span></li>
+                                <li class="list-group-item">Mobile: <span class="fw-bold">{{contact.mobile}}</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-1 d-flex flex-column justify-content-center align-items-center">
+                            <a routerLink="/contacts/view/{{contact.id}}" class="btn btn-warning my-1">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                            <a routerLink="/contacts/edit/{{contact.id}}" class="btn btn-primary my-1">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                            </a>
+                            <button class="btn btn-danger my-1" (click)="clickDeleteContact(contact.id)">
+                                <i class="fa fa-trash-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,80 @@
+{
+  "contacts": [
+    {
+      "id": "hjklsiowe",
+      "name": "Brad Gibson",
+      "company": "YouTube",
+      "email": "brad@gmail.com",
+      "title": "Youtuber",
+      "mobile": "93749823794",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcpHCESemKQvg7IAQM5g-ZfQeKRm0Wq7Bnwg&usqp=CAU",
+      "groupId": "3"
+    },
+    {
+      "id": "hjklsadoe",
+      "name": "Glenda Gibson",
+      "company": "Friend",
+      "email": "Glenda@gmail.com",
+      "title": "Freelancer",
+      "mobile": "93749878907",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyrljWMJ8sAOMMOkGTLzGCGPdKpZYUtGP6KOazh_Jx3T2sZhYdIuVP5dQ1MtH0JREBlOY&usqp=CAU",
+      "groupId": "2"
+    },
+    {
+      "id": "hjiokuoih",
+      "name": "Rahul Sharma",
+      "company": "Friend",
+      "email": "Rahul@gmail.com",
+      "title": "HCL Technologies",
+      "mobile": "93749867895",
+      "photo": "https://png.pngtree.com/png-clipart/20190516/original/pngtree-users-vector-icon-png-image_3725294.jpg",
+      "groupId": "1"
+    },
+    {
+      "name": "Vladeen Kim",
+      "company": "Service",
+      "email": "Vladeen@gmail.com",
+      "title": "Electrician",
+      "mobile": "93749845236",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuIurT-orT0EQiohRT2it3xFC4meoVB4ebW-oJDGu7bjcPakujCTjoXv04xsmTcf_YurE&usqp=CAU",
+      "groupId": "4",
+      "id": "klt-b3f"
+    },
+    {
+      "name": "Rajani",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyrljWMJ8sAOMMOkGTLzGCGPdKpZYUtGP6KOazh_Jx3T2sZhYdIuVP5dQ1MtH0JREBlOY&usqp=CAU",
+      "email": "Rajani@gmail.com",
+      "mobile": "9377890654",
+      "company": "VERNOST",
+      "title": "Product manager",
+      "groupId": "6",
+      "id": "Atl6RrF"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleague"
+    },
+    {
+      "id": "2",
+      "name": "Friend"
+    },
+    {
+      "id": "3",
+      "name": "Family"
+    },
+    {
+      "id": "4",
+      "name": "Service"
+    },
+    {
+      "id": "5",
+      "name": "Community"
+    },
+    {
+      "id": "6",
+      "name": "Social"
+    }
+  ]
+}
